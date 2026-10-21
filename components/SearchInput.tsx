@@ -75,7 +75,6 @@ const SearchInput = ({
   return (
     <div className={`relative ${className}`} ref={dropdownRef}>
       <div className="relative">
-        <SearchIcon className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400 pointer-events-none" />
         <Input
           ref={inputRef}
           type="text"
@@ -86,6 +85,9 @@ const SearchInput = ({
           placeholder={placeholder}
           className="w-full pl-10 pr-10 py-2.5 text-gray-900 bg-white border border-gray-300 focus:outline-none  focus:border-gray-400 rounded-lg placeholder:text-gray-400 transition-colors"
         />
+        {!value && (
+          <SearchIcon className="absolute right-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400 pointer-events-none" />
+        )}
         {value && (
           <button
             type="button"
