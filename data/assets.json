@@ -1,0 +1,357 @@
+{
+  "assets": [
+    {
+      "id": "kpi-1",
+      "type": "kpi",
+      "name": "KPI item 1",
+      "description": "Description of the KPI item goes here",
+      "date": "2024-01-15",
+      "image": "/placeholder-kpi-1.svg",
+      "categories": ["Financial"],
+      "featured": true,
+      "layoutType": "universal",
+      "used": 12,
+      "details": {
+        "businessQuestions": [
+          {
+            "question": "Business question 1",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 2",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 3",
+            "answer": "Short answer to this business question"
+          }
+        ],
+        "metricIds": ["METRIC-001", "METRIC-002", "METRIC-003"],
+        "description": "Description of the KPI calculation and purpose goes here",
+        "calculation": "Calculation formula goes here",
+        "visualAvailable": [
+          "Line Chart",
+          "Bar Chart",
+          "Area Chart",
+          "Waterfall Chart"
+        ],
+        "affiliateApplicability": [
+          "Global",
+          "North America",
+          "Europe",
+          "APAC",
+          "LATAM"
+        ]
+      }
+    },
+    {
+      "id": "kpi-2",
+      "type": "kpi",
+      "name": "KPI item 2",
+      "description": "Description of the KPI item goes here",
+      "date": "2024-01-10",
+      "image": "/placeholder-kpi-2.svg",
+      "categories": ["Marketing"],
+      "featured": true,
+      "layoutType": "dashboard",
+      "used": 8,
+      "details": {
+        "businessQuestions": [
+          {
+            "question": "Business question 1",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 2",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 3",
+            "answer": "Short answer to this business question"
+          }
+        ],
+        "metricIds": ["METRIC-004", "METRIC-005", "METRIC-006"],
+        "description": "Description of the KPI calculation and purpose goes here",
+        "calculation": "Calculation formula goes here",
+        "visualAvailable": ["Bar Chart", "Stacked Bar Chart", "Funnel Chart"],
+        "affiliateApplicability": ["Global", "North America", "Europe"]
+      }
+    },
+    {
+      "id": "kpi-3",
+      "type": "kpi",
+      "name": "KPI item 3",
+      "description": "Description of the KPI item goes here",
+      "date": "2024-01-08",
+      "image": "/placeholder-kpi-3.svg",
+      "categories": ["Customer Success"],
+      "featured": false,
+      "layoutType": "dashboard",
+      "used": 5,
+      "details": {
+        "businessQuestions": [
+          {
+            "question": "Business question 1",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 2",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 3",
+            "answer": "Short answer to this business question"
+          }
+        ],
+        "metricIds": ["METRIC-007", "METRIC-008"],
+        "description": "Description of the KPI calculation and purpose goes here",
+        "calculation": "Calculation formula goes here",
+        "visualAvailable": ["Gauge Chart", "Trend Line", "Segmented Bar Chart"],
+        "affiliateApplicability": ["Global", "North America", "Europe", "APAC"]
+      }
+    },
+    {
+      "id": "kpi-4",
+      "type": "kpi",
+      "name": "KPI item 4",
+      "description": "Description of the KPI item goes here",
+      "date": "2024-01-05",
+      "image": "/placeholder-kpi-4.svg",
+      "categories": ["Customer Success"],
+      "featured": false,
+      "layoutType": "report",
+      "used": 3,
+      "details": {
+        "businessQuestions": [
+          {
+            "question": "Business question 1",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 2",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 3",
+            "answer": "Short answer to this business question"
+          }
+        ],
+        "metricIds": ["METRIC-009", "METRIC-010"],
+        "description": "Description of the KPI calculation and purpose goes here",
+        "calculation": "Calculation formula goes here",
+        "visualAvailable": ["Cohort Analysis", "Line Chart", "Heatmap"],
+        "affiliateApplicability": [
+          "Global",
+          "North America",
+          "Europe",
+          "APAC",
+          "LATAM"
+        ]
+      }
+    },
+    {
+      "id": "layout-1",
+      "type": "layout",
+      "name": "Layout item 1",
+      "description": "Description of the layout item goes here",
+      "date": "2024-01-12",
+      "image": "/placeholder-layout-1.svg",
+      "categories": ["Executive", "Financial"],
+      "featured": true,
+      "details": {
+        "businessQuestions": [
+          {
+            "question": "Business question 1",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 2",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 3",
+            "answer": "Short answer to this business question"
+          }
+        ],
+        "layoutType": "universal",
+        "pages": 3,
+        "kpisUsed": ["KPI item 1", "KPI item 2", "KPI item 3", "KPI item 4"],
+        "lastUpdated": "2024-01-12",
+        "preview": "Preview description of the layout goes here"
+      }
+    },
+    {
+      "id": "layout-2",
+      "type": "layout",
+      "name": "Layout item 2",
+      "description": "Description of the layout item goes here",
+      "date": "2024-01-09",
+      "image": "/placeholder-layout-2.svg",
+      "categories": ["Marketing", "Analytics"],
+      "featured": true,
+      "details": {
+        "businessQuestions": [
+          {
+            "question": "Business question 1",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 2",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 3",
+            "answer": "Short answer to this business question"
+          }
+        ],
+        "layoutType": "report",
+        "pages": 5,
+        "kpisUsed": ["KPI item 2", "KPI item 5", "KPI item 6", "KPI item 7"],
+        "lastUpdated": "2024-01-09",
+        "preview": "Preview description of the layout goes here"
+      }
+    },
+    {
+      "id": "layout-3",
+      "type": "layout",
+      "name": "Layout item 3",
+      "description": "Description of the layout item goes here",
+      "date": "2024-01-07",
+      "image": "/placeholder-layout-3.svg",
+      "categories": ["Customer Success", "Operations"],
+      "featured": false,
+      "details": {
+        "businessQuestions": [
+          {
+            "question": "Business question 1",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 2",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 3",
+            "answer": "Short answer to this business question"
+          }
+        ],
+        "layoutType": "scorecard",
+        "pages": 4,
+        "kpisUsed": ["KPI item 3", "KPI item 4", "KPI item 8", "KPI item 9"],
+        "lastUpdated": "2024-01-07",
+        "preview": "Preview description of the layout goes here"
+      }
+    },
+    {
+      "id": "layout-4",
+      "type": "layout",
+      "name": "Layout item 4",
+      "description": "Description of the layout item goes here",
+      "date": "2024-01-04",
+      "image": "/placeholder-layout-4.svg",
+      "categories": ["Finance", "Planning"],
+      "featured": false,
+      "details": {
+        "businessQuestions": [
+          {
+            "question": "Business question 1",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 2",
+            "answer": "Short answer to this business question"
+          },
+          {
+            "question": "Business question 3",
+            "answer": "Short answer to this business question"
+          }
+        ],
+        "layoutType": "dashboard",
+        "pages": 6,
+        "kpisUsed": ["KPI item 1", "KPI item 10", "KPI item 11", "KPI item 12"],
+        "lastUpdated": "2024-01-04",
+        "preview": "Preview description of the layout goes here"
+      }
+    },
+    {
+      "id": "storyboard-1",
+      "type": "storyboard",
+      "name": "Storyboard item 1",
+      "description": "Description of the storyboard item goes here",
+      "date": "2024-01-14",
+      "image": "/placeholder-storyboard-1.svg",
+      "category": "Executive",
+      "featured": true,
+      "details": {
+        "coupledKpisFilters": [
+          "KPI item 1 (by region)",
+          "KPI item 2 (by channel)",
+          "KPI item 4 (by cohort)"
+        ],
+        "applicableAffiliates": ["Global", "North America", "Europe"],
+        "requestAccess": true
+      }
+    },
+    {
+      "id": "storyboard-2",
+      "type": "storyboard",
+      "name": "Storyboard item 2",
+      "description": "Description of the storyboard item goes here",
+      "date": "2024-01-11",
+      "image": "/placeholder-storyboard-2.svg",
+      "category": "Marketing",
+      "featured": false,
+      "details": {
+        "coupledKpisFilters": [
+          "KPI item 2",
+          "KPI item 5",
+          "KPI item 6",
+          "KPI item 7"
+        ],
+        "applicableAffiliates": ["Global", "North America"],
+        "requestAccess": true
+      }
+    },
+    {
+      "id": "storyboard-3",
+      "type": "storyboard",
+      "name": "Storyboard item 3",
+      "description": "Description of the storyboard item goes here",
+      "date": "2024-01-06",
+      "image": "/placeholder-storyboard-3.svg",
+      "category": "Customer Success",
+      "featured": false,
+      "details": {
+        "coupledKpisFilters": [
+          "KPI item 3",
+          "KPI item 4",
+          "KPI item 8",
+          "KPI item 13"
+        ],
+        "applicableAffiliates": ["Global", "North America", "Europe", "APAC"],
+        "requestAccess": false
+      }
+    },
+    {
+      "id": "storyboard-4",
+      "type": "storyboard",
+      "name": "Storyboard item 4",
+      "description": "Description of the storyboard item goes here",
+      "date": "2024-01-03",
+      "image": "/placeholder-storyboard-4.svg",
+      "category": "Finance",
+      "featured": false,
+      "details": {
+        "coupledKpisFilters": [
+          "KPI item 1",
+          "KPI item 10",
+          "KPI item 11",
+          "KPI item 14"
+        ],
+        "applicableAffiliates": ["Global"],
+        "requestAccess": true
+      }
+    }
+  ],
+  "recentSearches": ["KPI item", "Layout item", "Storyboard item", "Executive"]
+}
